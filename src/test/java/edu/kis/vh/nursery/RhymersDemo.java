@@ -9,7 +9,6 @@ class RhymersDemo {
 
     public static void main(String[] args) {
         Rhymersfactory factory = new DefaultRhymersFactory();
-
         testRhymers(factory);
 
     }
