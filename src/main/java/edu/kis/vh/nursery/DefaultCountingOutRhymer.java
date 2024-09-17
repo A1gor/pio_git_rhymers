@@ -18,9 +18,6 @@ public class DefaultCountingOutRhymer {
             numbers[++total] = in;
     }
 
-    public void setTotal(int total){
-        this.total = total;
-    }
 
     protected boolean callCheck() {
             return total == EMPTY;
