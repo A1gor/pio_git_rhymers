@@ -11,11 +11,15 @@ public class DefaultCountingOutRhymer {
         return total;
     }
 
-    public int total = EMPTY;
+    private int total = EMPTY;
 
     protected void countIn(int in) {
         if (!isFull())
             numbers[++total] = in;
+    }
+
+    public void setTotal(int total){
+        this.total = total;
     }
 
     protected boolean callCheck() {
