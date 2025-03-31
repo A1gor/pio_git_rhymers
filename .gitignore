@@ -1,0 +1,17 @@
+# Ignorowanie plików wygenerowanych przez kompilację
+*.class
+
+# Ignorowanie katalogów wygenerowanych przez IDE
+.idea/
+
+# Ignorowanie katalogu docelowego (zawiera skompilowane pliki .class)
+target/
+
+# Ignorowanie pliku pom.xml.backup
+pom.xml.backup
+
+# Ignorowanie plików z logami Mavena
+mvnLog.log
+
+# Ignorowanie katalogu rozszerzenia trunk
+.trunk/
